@@ -54,7 +54,7 @@ class _QuizScreenState extends State<QuizScreen> {
       int incorrect = _correctAnswers.length - correct;
 
       return Scaffold(
-        appBar: AppBar(title: Text('Quiz Results'),backgroundColor: Colors.blue,),
+        appBar: AppBar(title: Text('Quiz Results:'),backgroundColor: Colors.blue,),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
